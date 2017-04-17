@@ -1,4 +1,4 @@
-setwd('~/Documents/MSAN/DataViz/HW2')
+setwd('~/Documents/MSAN/DataViz/HW2/ssmith_submit/')
 library(ggvis)
 library(shiny)
 library(reshape2)
