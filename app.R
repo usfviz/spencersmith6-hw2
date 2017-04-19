@@ -1,4 +1,4 @@
-setwd('~/Documents/MSAN/DataViz/HW2/ssmith_submit/')
+#setwd('~/Documents/MSAN/DataViz/HW2/ssmith_submit/')
 library(ggvis)
 library(shiny)
 library(reshape2)
@@ -60,10 +60,6 @@ server <- function(input, output) {
     return(d)
   })
 
-  
-  #regions <- reactive({
-    
-  #})
 
   visualization <- reactive({
 
