@@ -2,7 +2,7 @@
 library(ggvis)
 library(shiny)
 library(reshape2)
-
+Sys.setlocale(locale="C")
 
 ### LOAD and PREP ###
 data <- read.csv('pop_fert_le.csv', stringsAsFactors = F)
